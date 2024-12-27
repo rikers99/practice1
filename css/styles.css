@@ -1,0 +1,133 @@
+/*
+Author: Steve Culmer
+Date:  21 jul 2024
+File Name:  styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #62eee4;
+}
+
+/* Style rule for box sizing applies to all elements */
+*{
+    box-sizing: border-box;
+}
+
+/* Style rules for header */
+header {
+	width: 25%;
+    text-align: center;
+}
+
+/* Style rules for navigation area */
+nav {
+	padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li a {
+	display: block;
+	color: #000;
+    font-weight: bold;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: "Roboto Slab", serif;
+}
+
+.frame {
+    position: relative;
+    max-width: 450px;
+    margin: 2% auto
+}
+
+.pic-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#steve, #mom, #dad {
+    margin: 0 2%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact .contact-email-link {
+    color: #666600;
+    text-decoration: none;
+}
+
+.map {
+    border: 2px solid #000;
+    width: 95%;
+    height: 50%;
+}
+
+/* Style rules for form elements */
+fieldset, input, select, textarea {
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+}
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+/* Style rules for footer content */
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #e72020;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #e72020;
+    text-decoration: none;
+}
